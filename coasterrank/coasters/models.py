@@ -11,7 +11,7 @@ class RollerCoaster(models.Model):
         unique_together = ('name', 'park')
 
     def __repr__(self):
-        return '<Rollercoaster: %s - %s>' % self.name, self.park.name
+        return '<Rollercoaster: %s - %s>' % (self.name, self.park.name)
 
     def __str__(self):
         return self.name
@@ -27,7 +27,7 @@ class Park(models.Model):
         unique_together = ('name', 'country')
 
     def __repr__(self):
-        return '<Park: %s (%s)>' % self.name, self.country.name
+        return '<Park: %s (%s)>' % (self.name, self.country.name)
 
     def __str__(self):
         return self.name
