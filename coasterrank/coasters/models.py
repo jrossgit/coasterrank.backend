@@ -1,12 +1,13 @@
 from django.db import models
 
+
 class RollerCoaster(models.Model):
     name = models.CharField(max_length=60)
     year_opened = models.IntegerField(blank=True)
     park = models.ForeignKey('Park')
     active = models.BooleanField(default=True)
-    manufacturer = models.ForeignKey('Manufacturer')   
- 
+    manufacturer = models.ForeignKey('Manufacturer')
+
     class Meta:
         unique_together = ('name', 'park')
 
