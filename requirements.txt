@@ -5,7 +5,7 @@ Django==1.9.8
 djangorestframework==3.4.1
 html5lib==0.999
 ndg-httpsclient==0.3.2
-psutil==2.1.1
+psutil==5.6.6
 pyasn1==0.1.7
 pygobject==3.14.0
 pyOpenSSL==0.13.1
