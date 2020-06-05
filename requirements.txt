@@ -1,7 +1,7 @@
 chardet==2.3.0
 colorama==0.3.2
 defer==1.0.6
-Django==1.9.8
+Django==1.11.29
 djangorestframework==3.4.1
 html5lib==0.999
 ndg-httpsclient==0.3.2
